@@ -31,7 +31,7 @@ class Circle(Figure):
 
 
 if __name__ == "__main__":
-    circle = Circle(3)
+    circle = Circle(7)
     print("Имя фигуры = {}, Радиус = {}".format(circle.get_name(), circle.radius))
     print("Периметр {}а = {}".format(circle.get_name(), circle.perimeter))
     print("Площадь {}а = {}".format(circle.get_name(), circle.area))

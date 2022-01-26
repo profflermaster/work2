@@ -23,7 +23,7 @@ class Triangle(Figure):
         # Проверяем условие существования тругольника
         if not ((args[0] + args[1] > args[2]) and (args[0] + args[2] > args[1])
                 and (args[1] + args[2] > args[0])):
-            print("Создаваемая фигура не являтся треугольником")
+            print(" Создаваемая фигура не являтся треугольником ")
             return None
         # Возврящаем объект
         return super(Triangle, cls).__new__(cls)

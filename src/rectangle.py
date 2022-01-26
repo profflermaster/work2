@@ -1,7 +1,7 @@
 from src.figure import Figure
 
 
-class Rectagnle(Figure):
+class Rectangle(Figure):
     """ Класс Прямоугольник. Конструктор принимает длину и ширину прямоугольника. """
 
     _name = 'Прямоугольник'
@@ -30,7 +30,7 @@ class Rectagnle(Figure):
 
 
 if __name__ == "__main__":
-    rectangle = Rectagnle(3, 4)
+    rectangle = Rectangle(3, 4)
     print("Имя фигуры = {}, стороны: {}".format(rectangle.get_name(), rectangle.sides))
     print("Периметр {}а = {}".format(rectangle.get_name(), rectangle.perimeter))
     print("Площадь {}а = {}".format(rectangle.get_name(), rectangle.area))
